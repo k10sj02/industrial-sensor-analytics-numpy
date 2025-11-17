@@ -1,9 +1,9 @@
 # Industrial Sensor Analytics (Numpy)
 
-To make this project more engaging and hands-on, I’m taking inspiration from the original TDS article and creating my own version. My fictional client is EnviroTech Dynamics, a global operator of industrial sensor networks.
+To make this project more fun and grounded, I’m borrowing the idea from the original TDS article and building my own version of it. Like the author, I’m using a fictional client—EnviroTech Dynamics, a global operator of industrial sensor networks.
 
-Currently, EnviroTech relies on outdated, loop-based Python scripts to process over a billion sensor readings daily. I scaled the dataset from millions to a billion readings to stress-test memory usage, vectorized operations, and large-scale simulation workloads. Their current workflow is slow and clunky, delaying critical maintenance decisions. They need something faster, modern, and vectorized.
+EnviroTech currently runs outdated, loop-based Python scripts to process more than a million sensor readings a day. It’s slow, clunky, and delays the maintenance decisions they rely on to keep operations running smoothly. They need something faster, modern, and vectorized.
 
-However, be careful, generating one billion iterations in pure Python would take hours or even days. A billion `float64` numbers require roughly 8 GB of RAM (plus overhead), which will crash most laptops. In real-world projects, you’d often work with 1 million rows instead.
+This notebook is my own NumPy-driven proof of concept, where I reimagine the workflow and show how much we can speed up their data pipeline with cleaner, high-performance techniques.
 
-This notebook is my NumPy-driven proof of concept, where I reimagine the workflow and demonstrate how cleaner, high-performance techniques can dramatically speed up their data pipeline.
+Original Article([https://towardsdatascience.com/numpy-for-absolute-beginners-a-project-based-approach-to-data-analysis/])
